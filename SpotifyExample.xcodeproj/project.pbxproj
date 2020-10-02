@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		02F668A225265EAD001C8D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668A125265EAD001C8D82 /* AppDelegate.swift */; };
 		02F668A425265EAD001C8D82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668A325265EAD001C8D82 /* SceneDelegate.swift */; };
-		02F668A625265EAD001C8D82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668A525265EAD001C8D82 /* ViewController.swift */; };
 		02F668A925265EAD001C8D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F668A725265EAD001C8D82 /* Main.storyboard */; };
 		02F668AB25265EAE001C8D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F668AA25265EAE001C8D82 /* Assets.xcassets */; };
 		02F668AE25265EAE001C8D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F668AC25265EAE001C8D82 /* LaunchScreen.storyboard */; };
+		02F668BF25265F54001C8D82 /* song-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02F668BB25265F53001C8D82 /* song-1.mp3 */; };
+		02F668C025265F54001C8D82 /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 02F668BC25265F53001C8D82 /* categories.json */; };
+		02F668C125265F54001C8D82 /* song-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02F668BD25265F54001C8D82 /* song-2.mp3 */; };
+		02F668C225265F54001C8D82 /* song-0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02F668BE25265F54001C8D82 /* song-0.mp3 */; };
+		02F668C525265F72001C8D82 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668C425265F72001C8D82 /* Song.swift */; };
+		02F668C825265FC2001C8D82 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668C725265FC2001C8D82 /* Album.swift */; };
+		02F668CB25266051001C8D82 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668CA25266051001C8D82 /* Category.swift */; };
+		02F668CF252660A8001C8D82 /* CategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668CE252660A8001C8D82 /* CategoryService.swift */; };
+		02F668D325266E29001C8D82 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668D225266E29001C8D82 /* CategoryCell.swift */; };
+		02F668D625266F83001C8D82 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668D525266F83001C8D82 /* AlbumCell.swift */; };
+		02F668D925267223001C8D82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668D825267223001C8D82 /* HomeViewController.swift */; };
+		02F668DE25268496001C8D82 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668DD25268496001C8D82 /* SongCell.swift */; };
+		02F668E1252685FE001C8D82 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668E0252685FE001C8D82 /* AlbumViewController.swift */; };
+		02F668E425268958001C8D82 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668E325268958001C8D82 /* User.swift */; };
+		02F668E725268971001C8D82 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668E625268971001C8D82 /* UserService.swift */; };
+		02F668EB2527AF2E001C8D82 /* UIImageColors in Frameworks */ = {isa = PBXBuildFile; productRef = 02F668EA2527AF2E001C8D82 /* UIImageColors */; };
+		02F668EE2527B6CF001C8D82 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668ED2527B6CF001C8D82 /* AudioService.swift */; };
+		02F668F12527BCCF001C8D82 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F668F02527BCCF001C8D82 /* SongViewController.swift */; };
+		02F668F52527CCE0001C8D82 /* MarqueeLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 02F668F42527CCE0001C8D82 /* MarqueeLabel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02F6689E25265EAD001C8D82 /* SpotifyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F668A125265EAD001C8D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02F668A325265EAD001C8D82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02F668A525265EAD001C8D82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02F668A825265EAD001C8D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02F668AA25265EAE001C8D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02F668AD25265EAE001C8D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02F668AF25265EAE001C8D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F668BB25265F53001C8D82 /* song-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "song-1.mp3"; sourceTree = "<group>"; };
+		02F668BC25265F53001C8D82 /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
+		02F668BD25265F54001C8D82 /* song-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "song-2.mp3"; sourceTree = "<group>"; };
+		02F668BE25265F54001C8D82 /* song-0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "song-0.mp3"; sourceTree = "<group>"; };
+		02F668C425265F72001C8D82 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		02F668C725265FC2001C8D82 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		02F668CA25266051001C8D82 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		02F668CE252660A8001C8D82 /* CategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryService.swift; sourceTree = "<group>"; };
+		02F668D225266E29001C8D82 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		02F668D525266F83001C8D82 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		02F668D825267223001C8D82 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		02F668DD25268496001C8D82 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		02F668E0252685FE001C8D82 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		02F668E325268958001C8D82 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		02F668E625268971001C8D82 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		02F668ED2527B6CF001C8D82 /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		02F668F02527BCCF001C8D82 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F668F52527CCE0001C8D82 /* MarqueeLabel in Frameworks */,
+				02F668EB2527AF2E001C8D82 /* UIImageColors in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +92,71 @@
 		02F668A025265EAD001C8D82 /* SpotifyExample */ = {
 			isa = PBXGroup;
 			children = (
-				02F668A125265EAD001C8D82 /* AppDelegate.swift */,
-				02F668A325265EAD001C8D82 /* SceneDelegate.swift */,
-				02F668A525265EAD001C8D82 /* ViewController.swift */,
-				02F668A725265EAD001C8D82 /* Main.storyboard */,
+				02F668B725265ED0001C8D82 /* Model */,
+				02F668B625265ECB001C8D82 /* View */,
+				02F668B825265ED8001C8D82 /* Controller */,
+				02F668B925265EDF001C8D82 /* Supporting Files */,
 				02F668AA25265EAE001C8D82 /* Assets.xcassets */,
-				02F668AC25265EAE001C8D82 /* LaunchScreen.storyboard */,
 				02F668AF25265EAE001C8D82 /* Info.plist */,
 			);
 			path = SpotifyExample;
+			sourceTree = "<group>";
+		};
+		02F668B625265ECB001C8D82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02F668A725265EAD001C8D82 /* Main.storyboard */,
+				02F668AC25265EAE001C8D82 /* LaunchScreen.storyboard */,
+				02F668D225266E29001C8D82 /* CategoryCell.swift */,
+				02F668D525266F83001C8D82 /* AlbumCell.swift */,
+				02F668DD25268496001C8D82 /* SongCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02F668B725265ED0001C8D82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02F668CD2526609B001C8D82 /* Service */,
+				02F668C425265F72001C8D82 /* Song.swift */,
+				02F668C725265FC2001C8D82 /* Album.swift */,
+				02F668CA25266051001C8D82 /* Category.swift */,
+				02F668E325268958001C8D82 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02F668B825265ED8001C8D82 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				02F668D825267223001C8D82 /* HomeViewController.swift */,
+				02F668E0252685FE001C8D82 /* AlbumViewController.swift */,
+				02F668F02527BCCF001C8D82 /* SongViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		02F668B925265EDF001C8D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02F668BC25265F53001C8D82 /* categories.json */,
+				02F668BE25265F54001C8D82 /* song-0.mp3 */,
+				02F668BB25265F53001C8D82 /* song-1.mp3 */,
+				02F668BD25265F54001C8D82 /* song-2.mp3 */,
+				02F668A125265EAD001C8D82 /* AppDelegate.swift */,
+				02F668A325265EAD001C8D82 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02F668CD2526609B001C8D82 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				02F668CE252660A8001C8D82 /* CategoryService.swift */,
+				02F668E625268971001C8D82 /* UserService.swift */,
+				02F668ED2527B6CF001C8D82 /* AudioService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +175,10 @@
 			dependencies = (
 			);
 			name = SpotifyExample;
+			packageProductDependencies = (
+				02F668EA2527AF2E001C8D82 /* UIImageColors */,
+				02F668F42527CCE0001C8D82 /* MarqueeLabel */,
+			);
 			productName = SpotifyExample;
 			productReference = 02F6689E25265EAD001C8D82 /* SpotifyExample.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +206,10 @@
 				Base,
 			);
 			mainGroup = 02F6689525265EAD001C8D82;
+			packageReferences = (
+				02F668E92527AF2E001C8D82 /* XCRemoteSwiftPackageReference "UIImageColors" */,
+				02F668F32527CCE0001C8D82 /* XCRemoteSwiftPackageReference "MarqueeLabel" */,
+			);
 			productRefGroup = 02F6689F25265EAD001C8D82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				02F668AE25265EAE001C8D82 /* LaunchScreen.storyboard in Resources */,
+				02F668BF25265F54001C8D82 /* song-1.mp3 in Resources */,
 				02F668AB25265EAE001C8D82 /* Assets.xcassets in Resources */,
+				02F668C225265F54001C8D82 /* song-0.mp3 in Resources */,
+				02F668C025265F54001C8D82 /* categories.json in Resources */,
+				02F668C125265F54001C8D82 /* song-2.mp3 in Resources */,
 				02F668A925265EAD001C8D82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +241,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F668A625265EAD001C8D82 /* ViewController.swift in Sources */,
+				02F668C525265F72001C8D82 /* Song.swift in Sources */,
+				02F668CB25266051001C8D82 /* Category.swift in Sources */,
 				02F668A225265EAD001C8D82 /* AppDelegate.swift in Sources */,
+				02F668D625266F83001C8D82 /* AlbumCell.swift in Sources */,
+				02F668D325266E29001C8D82 /* CategoryCell.swift in Sources */,
+				02F668D925267223001C8D82 /* HomeViewController.swift in Sources */,
+				02F668E725268971001C8D82 /* UserService.swift in Sources */,
+				02F668CF252660A8001C8D82 /* CategoryService.swift in Sources */,
 				02F668A425265EAD001C8D82 /* SceneDelegate.swift in Sources */,
+				02F668E425268958001C8D82 /* User.swift in Sources */,
+				02F668DE25268496001C8D82 /* SongCell.swift in Sources */,
+				02F668C825265FC2001C8D82 /* Album.swift in Sources */,
+				02F668F12527BCCF001C8D82 /* SongViewController.swift in Sources */,
+				02F668EE2527B6CF001C8D82 /* AudioService.swift in Sources */,
+				02F668E1252685FE001C8D82 /* AlbumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +455,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02F668E92527AF2E001C8D82 /* XCRemoteSwiftPackageReference "UIImageColors" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jathu/UIImageColors.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		02F668F32527CCE0001C8D82 /* XCRemoteSwiftPackageReference "MarqueeLabel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cbpowell/MarqueeLabel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02F668EA2527AF2E001C8D82 /* UIImageColors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02F668E92527AF2E001C8D82 /* XCRemoteSwiftPackageReference "UIImageColors" */;
+			productName = UIImageColors;
+		};
+		02F668F42527CCE0001C8D82 /* MarqueeLabel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02F668F32527CCE0001C8D82 /* XCRemoteSwiftPackageReference "MarqueeLabel" */;
+			productName = MarqueeLabel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 02F6689625265EAD001C8D82 /* Project object */;
 }

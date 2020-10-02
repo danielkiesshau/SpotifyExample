@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MarqueeLabel",
+        "repositoryURL": "https://github.com/cbpowell/MarqueeLabel.git",
+        "state": {
+          "branch": null,
+          "revision": "d548621d5d6a45294dfdd12fce4d3a47de30a51e",
+          "version": "4.0.3"
+        }
+      },
+      {
+        "package": "UIImageColors",
+        "repositoryURL": "https://github.com/jathu/UIImageColors.git",
+        "state": {
+          "branch": null,
+          "revision": "e49e6c32ea556e9fa0109dc79686bea4a10d41a2",
+          "version": "2.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
